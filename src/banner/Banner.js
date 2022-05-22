@@ -23,8 +23,8 @@ function Banner() {
                       "Computer Vision",
                       "TensorFlow",
                     ]}
-                    typeSpeed={70}
-                    backSpeed={50}
+                    typeSpeed={50}
+                    backSpeed={40}
                     loop
                   />
                 </h4>
@@ -49,6 +49,96 @@ function Banner() {
           </div>
         </section>
       </section>
+      <section className="py-0 py-xl-5">
+        <div className="container text-center">
+          <div className="row g-4">
+            <div className="col-sm-6 col-xl-3">
+              <div className="d-flex justify-content-center align-items-center p-4 bg-success bg-opacity-15 rounded-3">
+                <span className="display-6 lh-1 text-warning mb-0">
+                  <i className="fas fa-tv"></i>
+                </span>
+                <div className="ms-4 h6 fw-normal">
+                  <div className="d-flex">
+                    <h5
+                      className="purecounter mb-0 fw-bold"
+                      data-purecounter-start="0"
+                      data-purecounter-end="10"
+                      data-purecounter-delay="200"
+                    >
+                      18
+                    </h5>
+                  </div>
+                  <p className="mb-0">Workshops/Events</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-sm-6 col-xl-3">
+              <div className="d-flex justify-content-center align-items-center p-4 bg-warning bg-opacity-15 rounded-3">
+                <span className="display-6 lh-1 text-warning mb-0">
+                  <i className="fas fa-tv"></i>
+                </span>
+                <div className="ms-4 h6 fw-normal">
+                  <div className="d-flex">
+                    <h5
+                      className="purecounter mb-0 fw-bold"
+                      data-purecounter-start="0"
+                      data-purecounter-end="10"
+                      data-purecounter-delay="200"
+                    >
+                      6
+                    </h5>
+                  </div>
+                  <p className="mb-0">Online Courses</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-sm-6 col-xl-3">
+              <div className="d-flex justify-content-center align-items-center p-4 bg-purple bg-opacity-10 rounded-3">
+                <span className="display-6 lh-1 text-purple mb-0">
+                  <i className="fas fa-user-graduate"></i>
+                </span>
+                <div className="ms-4 h6 fw-normal">
+                  <div className="d-flex">
+                    <h5
+                      className="purecounter mb-0 fw-bold"
+                      data-purecounter-start="0"
+                      data-purecounter-end="60"
+                      data-purecounter-delay="200"
+                    >
+                      1
+                    </h5>
+                    <span className="mb-0 h5">K+</span>
+                  </div>
+                  <p className="mb-0">Online Students</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-sm-6 col-xl-3">
+              <div className="d-flex justify-content-center align-items-center p-4 bg-info bg-opacity-10 rounded-3">
+                <span className="display-6 lh-1 text-info mb-0">
+                  <i className="bi bi-patch-check-fill"></i>
+                </span>
+                <div className="ms-4 h6 fw-normal">
+                  <div className="d-flex">
+                    <h5
+                      className="purecounter mb-0 fw-bold"
+                      data-purecounter-start="0"
+                      data-purecounter-end="6"
+                      data-purecounter-delay="300"
+                    >
+                      1
+                    </h5>
+                  </div>
+                  <p className="mb-0">Certified Courses</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      ;
     </>
   );
 }

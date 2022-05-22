@@ -7,16 +7,7 @@ function Header() {
         <nav className="navbar navbar-expand-xl">
           <div className="container-fluid px-3 px-xl-5">
             <a className="navbar-brand" href="index-2.html">
-              <img
-                className="light-mode-item navbar-brand-item"
-                src="assets/images/logo.svg"
-                alt="logo"
-              />
-              <img
-                className="dark-mode-item navbar-brand-item"
-                src="assets/images/logo-light.svg"
-                alt="logo"
-              />
+              Cali Workspace
             </a>
 
             <button
@@ -473,7 +464,7 @@ function Header() {
               >
                 <img
                   className="avatar-img rounded-circle"
-                  src="assets/images/avatar/01.jpg"
+                  src="assets/images/avatar/02.jpg"
                   alt="avatar"
                 />
               </a>
@@ -486,13 +477,13 @@ function Header() {
                     <div className="avatar me-3">
                       <img
                         className="avatar-img rounded-circle shadow"
-                        src="assets/images/avatar/01.jpg"
+                        src="assets/images/avatar/02.jpg"
                         alt="avatar"
                       />
                     </div>
                     <div>
                       <a className="h6" href="/">
-                        Lori Ferguson
+                        Zahrizhal Ali
                       </a>
                       <p className="small m-0">example@gmail.com</p>
                     </div>
@@ -521,14 +512,6 @@ function Header() {
                 </li>
                 <li>
                   <hr className="dropdown-divider" />
-                </li>
-                <li>
-                  <div className="modeswitch-wrap" id="darkModeSwitch">
-                    <div className="modeswitch-item">
-                      <div className="modeswitch-icon"></div>
-                    </div>
-                    <span>Dark mode</span>
-                  </div>
                 </li>
               </ul>
             </div>

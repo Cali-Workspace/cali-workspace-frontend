@@ -2,7 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://zahrizhalali.github.io/Cali-Workspace/cali-workspace-frontend",
+  
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
@@ -28,6 +28,7 @@
     "workbox-streams": "^6.5.3"
   },
   "scripts": {
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -52,3 +53,4 @@
     ]
   }
 }
+
