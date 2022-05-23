@@ -10,7 +10,7 @@ function Banner() {
           <div className="container-lg">
             <div className="row justify-content-center">
               <div className="col-md-12 col-xl-10 text-center">
-                <h4 className="display-3">
+                <h4 className="display-4">
                   Learn{" "}
                   <Typed
                     strings={[
@@ -20,7 +20,7 @@ function Banner() {
                       "Programming",
                       "Web3",
                       "Python",
-                      "Computer Vision",
+                      "OpenCV",
                       "TensorFlow",
                     ]}
                     typeSpeed={50}

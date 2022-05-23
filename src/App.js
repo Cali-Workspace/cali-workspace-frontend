@@ -1,5 +1,9 @@
 import React, { useEffect } from "react";
+import Announcement from "./announcement/Announcement";
 import Banner from "./banner/Banner";
+import Courses from "./courses/Courses";
+import Events from "./events/Events";
+import Footer from "./footer/Footer";
 import Header from "./header/Header";
 function App() {
   useEffect(() => {}, []);
@@ -8,8 +12,11 @@ function App() {
       <Header />
       <Banner />
       <main>
-        <h1 className="text-center display-4">Still under development...</h1>
+        <Courses />
+        <Announcement />
+        <Events />
       </main>
+      <Footer />
     </>
   );
 }
