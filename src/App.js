@@ -12,9 +12,12 @@ function App() {
       <Header />
       <Suspense fallback={null}>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/register" element={<Register />} />
+          <Route path="/cali-workspace-frontend" element={<Home />} />
+          <Route path="/cali-workspace-frontend/login" element={<Login />} />
+          <Route
+            path="/cali-workspace-frontend//register"
+            element={<Register />}
+          />
         </Routes>
       </Suspense>
     </>
