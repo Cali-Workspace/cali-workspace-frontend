@@ -14,10 +14,9 @@ function Banner() {
                   Learn{" "}
                   <Typed
                     strings={[
-                      "Machine Learning",
-                      "Data Science",
-                      "Ethical Hacking",
-                      "Programming",
+                      "ML",
+                      "Hacking",
+                      "C++",
                       "Web3",
                       "Python",
                       "OpenCV",

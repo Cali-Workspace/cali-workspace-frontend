@@ -1,14 +1,14 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 function Header() {
   return (
     <>
       <header className="navbar-light navbar-sticky header-static">
         <nav className="navbar navbar-expand-xl">
           <div className="container-fluid px-3 px-xl-5">
-            <a className="navbar-brand" href="index-2.html">
+            <Link className="navbar-brand" to="/">
               Cali Workspace
-            </a>
+            </Link>
 
             <button
               className="navbar-toggler ms-auto"
@@ -452,7 +452,20 @@ function Header() {
             </div>
 
             <div className="dropdown ms-1 ms-lg-0">
-              <a
+              <ul className="navbar-nav navbar-nav-scroll me-auto">
+                <li className="nav-item">
+                  <Link className="nav-link" to="/login">
+                    Login
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/register">
+                    Register
+                  </Link>
+                </li>
+              </ul>
+
+              {/* <a
                 className="avatar avatar-sm p-0"
                 href="/"
                 id="profileDropdown"
@@ -467,8 +480,8 @@ function Header() {
                   src="assets/images/avatar/02.jpg"
                   alt="avatar"
                 />
-              </a>
-              <ul
+              </a> */}
+              {/* <ul
                 className="dropdown-menu dropdown-animation dropdown-menu-end shadow pt-3"
                 aria-labelledby="profileDropdown"
               >
@@ -513,7 +526,7 @@ function Header() {
                 <li>
                   <hr className="dropdown-divider" />
                 </li>
-              </ul>
+              </ul> */}
             </div>
           </div>
         </nav>

@@ -1,22 +1,22 @@
-import React, { useEffect } from "react";
-import Announcement from "./announcement/Announcement";
-import Banner from "./banner/Banner";
-import Courses from "./courses/Courses";
-import Events from "./events/Events";
-import Footer from "./footer/Footer";
-import Header from "./header/Header";
+import React, { Suspense } from "react";
+import { Routes, Route } from "react-router-dom";
+const Footer = React.lazy(() => import("./footer/Footer"));
+const Header = React.lazy(() => import("./header/Header"));
+const Home = React.lazy(() => import("./home/Home"));
+const Login = React.lazy(() => import("./auth/Login"));
+const Register = React.lazy(() => import("./auth/Register"));
+
 function App() {
-  useEffect(() => {}, []);
   return (
     <>
       <Header />
-      <Banner />
-      <main>
-        <Courses />
-        <Announcement />
-        <Events />
-      </main>
-      <Footer />
+      <Suspense fallback={null}>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
+        </Routes>
+      </Suspense>
     </>
   );
 }
