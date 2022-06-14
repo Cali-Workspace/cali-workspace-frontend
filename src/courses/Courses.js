@@ -7,7 +7,12 @@ function Courses() {
         <div className="container">
           <div className="row mb-4">
             <div className="col-lg-8 mx-auto text-center">
-              <h2 className="fs-1">We Give You The Most Popular Courses ✌️</h2>
+              <h2 className="fs-1">
+                We Give You The Most Popular Courses{" "}
+                <span role="img" aria-label="peace">
+                  ✌️
+                </span>
+              </h2>
               <p className="mb-0">
                 We pick the best technology and help you step-by-step
               </p>

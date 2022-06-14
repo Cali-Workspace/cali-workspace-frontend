@@ -9,9 +9,12 @@ function Events() {
             <div className="col-lg-8 mx-auto text-center">
               <h2 className="fs-1">We Host High-Quality Workshops of Course</h2>
               <p className="mb-0">
-                Join the most 🔥 workshops to gain new insight of the latest
-                technology, And maybe build some fun projects. Open for
-                everyone. For You!
+                Join the most{" "}
+                <span role="img" aria-label="fire">
+                  🔥
+                </span>{" "}
+                workshops to gain new insight of the latest technology, And
+                maybe build some fun projects. Open for everyone. For You!
               </p>
             </div>
           </div>
