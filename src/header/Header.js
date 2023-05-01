@@ -37,7 +37,7 @@ function Header() {
                     aria-expanded="false"
                   >
                     <i className="bi bi-ui-radios-grid me-2"></i>
-                    <span>Category</span>
+                    <span>Categories</span>
                   </a>
                   <ul className="dropdown-menu" aria-labelledby="categoryMenu">
                     <li className="dropdown-submenu dropend">
@@ -452,16 +452,40 @@ function Header() {
             </div>
 
             <div className="dropdown ms-1 ms-lg-0">
-              <ul className="navbar-nav navbar-nav-scroll me-auto">
-                <li className="nav-item">
-                  <Link className="nav-link" to="/login">
-                    Login
-                  </Link>
+            <a
+                className="avatar avatar-sm p-0"
+                href="/"
+                id="profileDropdown"
+                role="button"
+                data-bs-auto-close="outside"
+                data-bs-display="static"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <img
+                  className="avatar-img rounded-circle"
+                  src="assets/images/avatar/02.jpg"
+                  alt="avatar"
+                />
+              </a>
+              <ul
+                className="dropdown-menu dropdown-animation dropdown-menu-end shadow pt-3"
+                aria-labelledby="profileDropdown"
+              >
+               
+                <li>
+                  <a className="dropdown-item" href="/">
+                    <i className="bi bi-person fa-fw me-2"></i>Login
+                  </a>
                 </li>
-                <li className="nav-item">
-                  <Link className="nav-link" to="/register">
-                    Register
-                  </Link>
+              
+                <li>
+                  <a className="dropdown-item bg-danger-soft-hover" href="/">
+                    <i className="bi bi-power fa-fw me-2"></i>Register
+                  </a>
+                </li>
+                <li>
+                  <hr className="dropdown-divider" />
                 </li>
               </ul>
 
@@ -480,8 +504,8 @@ function Header() {
                   src="assets/images/avatar/02.jpg"
                   alt="avatar"
                 />
-              </a> */}
-              {/* <ul
+              </a>
+              <ul
                 className="dropdown-menu dropdown-animation dropdown-menu-end shadow pt-3"
                 aria-labelledby="profileDropdown"
               >

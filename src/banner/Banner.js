@@ -15,15 +15,15 @@ function Banner() {
                   <Typed
                     strings={[
                       "ML",
-                      "Hacking",
+                      "Data Science",
                       "C++",
                       "Web3",
                       "Python",
                       "OpenCV",
                       "TensorFlow",
                     ]}
-                    typeSpeed={50}
-                    backSpeed={40}
+                    typeSpeed={45}
+                    backSpeed={45}
                     loop
                   />
                 </h4>
